@@ -1,7 +1,7 @@
 [build]
-  # No build step: this site only redirects to riccardomarin.github.io
-  command = ""
-  publish = "."
+  # No real build: this site only redirects to riccardomarin.github.io
+  command = "echo 'No build needed'"
+  publish = "public"
 
 [[redirects]]
   from = "/*"
