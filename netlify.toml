@@ -1,0 +1,10 @@
+[build]
+  # No build step: this site only redirects to riccardomarin.github.io
+  command = ""
+  publish = "."
+
+[[redirects]]
+  from = "/*"
+  to = "https://riccardomarin.github.io/:splat"
+  status = 301
+  force = true
